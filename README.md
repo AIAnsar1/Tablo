@@ -32,6 +32,25 @@ Laravel  | Laravel Monolith API
 ```
 
 
+<h3>Create ENV File</h3>
+
+<p>For Mac OS & UNIX & Linux</p>
+
+```bash
+    cp .env.example .env
+```
+
+<p>Windows</p>
+
+```bash
+    copy .env.example .env
+```
+
+<h3>Generate New Secret App Key</h3>
+
+```bash
+    php artisan key:generate
+```
 
 <h3>Optimize</h3>
 
