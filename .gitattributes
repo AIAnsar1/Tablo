@@ -1,0 +1,28 @@
+* text=auto eol=lf
+
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+
+/.github export-ignore
+CHANGELOG.md export-ignore
+.styleci.yml export-ignore
+
+
+/App/Events/CrudGeneratorEvent
+/App/Http/Controllers/CrudGeneratorController
+/App/Http/Requests/StoreRequest/StoreCrudGeneratorRequest
+/App/Http/Requests/UpdateRequest/UpdateCrudGeneratorRequest
+/App/Http/Resources/CrudGeneratorResource
+/App/Jobs/CrudGeneratorJob
+/App/Listeners/CrudGeneratorListener
+/App/Models/CrudGenerator
+/App/Observers/CrudGeneratorObserver
+/App/Repositories/CrudGeneratorRepository
+/App/Services/CrudGeneratorService
+/database/factories/CrudGeneratorFactory
+/database/seeders/CrudGeneratorSeeder
+/App/Console/Commands/Generator
+/App/Console/Commands/Generator;
